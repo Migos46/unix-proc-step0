@@ -11,13 +11,13 @@ This project aims to initialized the user with UNIX processes. It implements the
 - `build system`: cmake 
 ## Execution
 ```sh
-// At the README.md file directory 
-// Create build directory and change directory to it
+# At the README.md file directory 
+# Create build directory and change directory to it
 $ mkdir build && cd build 
-// cmake configurations and files generation  
+# cmake configurations and files generation  
 /build $ cmake ../   
-// Compile and link the program `.` after `--build` means current directory
+# Compile and link the program `.` after `--build` means current directory
 /build $ cmake --build . --clean-first
-// Run the program 
+# Run the program 
 /build $ ./p7 5 10
 ``` 
